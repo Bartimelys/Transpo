@@ -1,0 +1,61 @@
+.information{
+    position: relative;
+    padding: 80px 0 120px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__deskr{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 65px;
+    }
+    &__card{
+        width: 200px;
+        height: 160px;
+        background-color: #fff;
+        text-align: center;
+        border: 1px solid #C8A35F;
+        &_img{
+            background-image: url(../img/Truck_bg.jpg);
+        }
+    }
+    &__number{
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 48px;
+        letter-spacing: 3.75px;
+        margin-top: 35px;
+        &_less{
+            font-weight: 700;
+            font-size: 55px;
+            line-height: 55px;
+            margin-top: 38px;
+        }
+    }
+    &__title{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        margin-top: 7px;
+    }
+    &__subtitle{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 0.6px;
+        margin-top: 10px;
+    }
+    &__center{
+        position: absolute;
+        width: 30.5%;
+        height: 93%;
+        background-color: #393F47;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;        
+    }
+}

@@ -1,0 +1,14 @@
+.button{
+    width: 220px;
+    height: 55px;
+    background: #C8A35F;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    &_top{
+        margin-top: 50px;
+    }
+}

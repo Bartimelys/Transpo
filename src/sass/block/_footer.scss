@@ -1,0 +1,32 @@
+.footer{
+    padding: 60px 0 55px 0;
+    background-color: #C8A35F;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        font-weight: 400;
+        font-size: 14px;
+        color: #ffffff;
+    }
+    &__email{
+        text-decoration: none;
+        color: #2F343A;
+        &:hover{
+            text-decoration: none;
+            color: #2F343A;
+        }
+    }
+    &__number{
+        display: flex;
+        flex-direction: column;
+    }
+    &__phone{
+        text-decoration: none;
+        color: #ffffff;
+        &:hover{
+            text-decoration: none;
+            color: #ffffff;
+        }
+    }
+
+}

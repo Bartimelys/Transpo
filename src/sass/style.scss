@@ -1,0 +1,29 @@
+@import 'base/variables.scss';
+
+* {
+    font-family: 'roboto', sans-serif;
+}
+
+body{
+    background-color:#2F343A;
+}
+
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+
+@import 'block/header.scss';
+@import 'block/promo.scss';
+@import 'block/title.scss';
+@import 'block/transportation.scss';
+@import 'block/button.scss';
+@import 'block/line.scss';
+@import 'block/services.scss';
+@import 'block/information.scss';
+@import 'block/maps.scss';
+@import 'block/footer.scss';
+@import 'block/media.scss';
+

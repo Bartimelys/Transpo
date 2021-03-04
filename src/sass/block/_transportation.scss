@@ -1,0 +1,26 @@
+.transportation{
+    padding: 120px 0 129px 0;
+    position: relative;
+    &_left{
+        position: absolute;
+        width: 40%;
+        height: 561px;
+        background: #393F47;
+        left: 0px;
+        top: 0px; 
+    }
+    &_right{
+        position: absolute;
+        width: 40%;
+        height: 561px;
+        background: #393F47;
+        right: 0px;
+        top: 0px; 
+    }
+    &__wrapper{
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+    }
+}
